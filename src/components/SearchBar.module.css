@@ -1,0 +1,21 @@
+.wapperSearch{
+background-color: white;
+width: 400px;
+border: none;
+border-radius: 5px;
+padding: 0.5em;
+padding-left: 10em;
+justify-content: flex-end;
+}
+
+.input{
+  border: none;
+  width: 80%;
+  padding-left: 10em;
+  margin: none;
+}
+.btn{
+  background-color: transparent;
+  border: none;
+  width: 20%;
+}

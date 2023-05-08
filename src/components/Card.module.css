@@ -1,5 +1,27 @@
-.listItem {
-background-color: red;
+.warrperCard {
+background-color: blue;
  width: 320px;
- height: 320px;
+ height: auto;
+ border-radius: 10px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+position: relative;
+}
+.btn{
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-radius: 50%;
+  border: none;
+  color: white;
+  background-color: rgb(145, 4, 4);
+}
+.name{
+  position:absolute;
+  bottom: 140px;
+  left: 0px;
+  background-color: chartreuse;
+  border-radius: 5px;
 }
