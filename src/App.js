@@ -1,5 +1,5 @@
 import './App.css';
-// import Card from './components/Card.jsx';
+// import Card from './components/Card.jsx';//no usar
 import Cards from './components/Cards.jsx';
 import SearchBar from './components/SearchBar';
 import characters  from './data.js';
