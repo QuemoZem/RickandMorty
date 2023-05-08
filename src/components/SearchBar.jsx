@@ -8,4 +8,4 @@ export default function SearchBar(props) {
     </div>
   );
 }
-  
+   
