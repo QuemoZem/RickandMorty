@@ -1,6 +1,6 @@
 .warrperCard {
 background-color: blue;
- width: 320px;
+ width: 300px;
  height: auto;
  border-radius: 10px;
  display: flex;
@@ -23,6 +23,6 @@ position: relative;
   position:absolute;
   bottom: 140px;
   left: 0px;
-  background-color: chartreuse;
+  background-color: rgb(99, 173, 25);
   border-radius: 5px;
 }
