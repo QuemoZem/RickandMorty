@@ -1,8 +1,8 @@
 .warrperCard {
 background-color: blue;
- width: 300px;
+ width: 320px;
  height: auto;
- border-radius: 10px;
+ border-radius: 20px;
  display: flex;
  align-items: center;
  flex-direction: column;
@@ -15,9 +15,10 @@ position: relative;
   right: 0;
   border-radius: 50%;
   border: none;
-  color: white;
-  background-color: rgb(145, 4, 4);
-  
+  color:red;
+  background: transparent;
+  cursor: pointer;
+
 } 
 .name{
   position:absolute;
@@ -25,4 +26,10 @@ position: relative;
   left: 0px;
   background-color: rgb(99, 173, 25);
   border-radius: 5px;
+}
+
+.img{
+  border-radius: 15px;
+  width: 100%;
+  border-bottom-right-radius: 0;
 }

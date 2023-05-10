@@ -11,8 +11,8 @@ export default function Card({
 }) {
   return (
     <div className= {styles.warrperCard}>
-      <button className={styles.btn} onClick={onclose}>X</button>
-      <img src={image} alt="" />
+      <button className={styles.btn} onClick={onclose}>Clouse</button>
+      <img className={styles.img} src={image} alt="" />
       <h2 className={styles.name}>{name}</h2>
       <div>
       <h2>{status}</h2>

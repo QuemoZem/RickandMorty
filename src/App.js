@@ -1,13 +1,14 @@
 import './App.css';
 // import Card from './components/Card.jsx';//no usar
 import Cards from './components/Cards.jsx';
-import SearchBar from './components/SearchBar';
-import characters  from './data.js';
+import characters from './data.js';
+import NavBar from './components/NavBar';
 
 function App() {
-   return (
-      <div className='App'>
-         <SearchBar onSearch={(characterID) => window.alert(characterID)} />
+  return (
+    <div className='App'>
+       {/* <SearchBar onSearch={(characterID) => window.alert(characterID)} /> */}
+        <NavBar />
          <Cards characters={characters} />
          {/* <Card
             id={Rick.id}
