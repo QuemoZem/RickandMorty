@@ -17,7 +17,7 @@ export default function Cards(props) {
             gender={char.gender}
             origin={char.origin}
             image={char.image}
-            onclose={onclose}
+            onClose={onClose}
           />
         );
       })}

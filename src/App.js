@@ -1,4 +1,5 @@
 import './App.css';
+// import Card from './components/Card.jsx';//no usar
 import Cards from './components/cards/Cards.jsx';
 import Nav from './components/nav/Nav';
 import { useState } from 'react';
@@ -6,12 +7,13 @@ import axios from "axios"
 
 function App() {
   const [characters, setCharacters] = useState([]);
-  
+
   const onClose = (id) => {
     setCharacters(characters.filter((char) => {
-      return char.id !== parseInt(id)
+      return char.id !== Number(id)
    }))
   }
+
  const onSearch =  (id)=> {
    axios(`https://rickandmortyapi.com/api/character/${id}`).then(({ data }) => {
       if (data.name) {
@@ -24,7 +26,7 @@ function App() {
   return (
     <div className='App'>
       <Nav onSearch={onSearch} />
-         <Cards characters={characters} onClose={onClose} />
+      <Cards characters={characters} onClose={onClose} />
       </div>
    );
 }
