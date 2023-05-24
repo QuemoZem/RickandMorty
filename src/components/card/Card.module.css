@@ -14,7 +14,7 @@
   right: 0;
   border-radius: 50%;
   border: none;
-  color:rgb(5, 5, 5);
+  color:rgb(252, 5, 5);
   background: transparent;
   cursor: pointer;
 
@@ -44,6 +44,7 @@ h2{
   flex-direction: column;
   background-color: rgba(0, 0, 0, 0.339);
   bottom: 0px;
+  color: #013615;
   border-radius:  15px;
 }
 

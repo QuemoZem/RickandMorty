@@ -4,7 +4,7 @@ export default function Card({id,name,status,species,gender,origin,image,onClose
 }) {
   return (
     <div className={styles.card}>
-      <button className={styles.btn} onClick={ ()=>{onClose(id)}}>Close</button>
+      <button className={styles.btn} onClick={ ()=>{onClose(id)}}>[X]</button>
       <div className={styles.wrapperText} >
       <h1 className={styles.name}>{name}</h1>
       <div className={styles.details}>
