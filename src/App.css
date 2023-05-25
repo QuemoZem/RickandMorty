@@ -1,9 +1,8 @@
 .App {
-   /* text-align: center; */
-   width: 100vw;
-   height: 100vh;
-   background-image: url("https://www.xtrafondos.com/wallpapers/resized/rick-y-morty-fanart-2020-6344.jpg?s=large");
-   background-size:cover;
- 
-  
+  /* text-align: center; */
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+  background-image: url("https://www.xtrafondos.com/wallpapers/resized/rick-y-morty-fanart-2020-6344.jpg?s=large");
+  background-size: cover;
 }

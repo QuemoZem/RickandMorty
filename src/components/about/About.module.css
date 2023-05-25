@@ -1,0 +1,12 @@
+.div {
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 25em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 20px;
+}
+p {
+  width: 60%;
+}

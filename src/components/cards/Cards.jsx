@@ -1,7 +1,6 @@
 import Card from "../card/Card";
 import styles from "./Cards.module.css";
 
-
 export default function Cards(props) {
   const { characters, onClose } = props;
   return (
@@ -10,12 +9,11 @@ export default function Cards(props) {
         return (
           <Card
             key={char.id}
-            id ={char.id}
+            id={char.id}
             name={char.name}
             status={char.status}
             species={char.species}
             gender={char.gender}
-            origin={char.origin}
             image={char.image}
             onClose={onClose}
           />
@@ -24,4 +22,3 @@ export default function Cards(props) {
     </div>
   );
 }
-  
