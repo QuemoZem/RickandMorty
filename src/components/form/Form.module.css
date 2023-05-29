@@ -1,0 +1,20 @@
+.login {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 20px;
+  color: white;
+  padding-top: 5em;
+}
+.center {
+  width: 20%;
+  background-color: rgba(0, 0, 0, 0.339);
+  justify-content: center;
+  padding-left: 4em;
+  font-weight: bold;
+  margin: none;
+  border: red solid;
+  padding: 1em;
+  border-radius: 15px;
+}
