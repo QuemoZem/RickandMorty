@@ -25,11 +25,6 @@ export default function Card({
         <Link to={`/detail/${id}`}>
           <h1 className={styles.name}>{name}</h1>
         </Link>
-        <div className={styles.details}>
-          <h2>{status}</h2>
-          <h2>{species}</h2>
-          <h2>{gender}</h2>
-        </div>
       </div>
       <img className={styles.img} src={image} alt="" />
     </div>

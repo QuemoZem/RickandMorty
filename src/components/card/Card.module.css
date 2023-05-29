@@ -1,4 +1,4 @@
-.card{
+.card {
   width: 330px;
   height: 430px;
   display: flex;
@@ -6,52 +6,47 @@
   position: relative;
 }
 
-
-
-.btn{
+.btn {
   position: absolute;
   top: 0;
   right: 0;
   border-radius: 50%;
   border: none;
-  color:rgb(252, 5, 5);
+  color: rgb(252, 5, 5);
   background: transparent;
   cursor: pointer;
-
-} 
-.details{
+}
+.details {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  
 }
 
-h2{
+h2 {
   font-size: 14px;
 }
 
-.name{
+.name {
   font-size: 22px;
-  top: -35px;
+  top: -55px;
   position: absolute;
-  left: 80px;
+  left: 90px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
 }
 
-.wrapperText{
+.wrapperText {
   width: 100%;
-  position:absolute ;
+  position: absolute;
   display: flex;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.339);
   bottom: 0px;
-  color: #013615;
-  border-radius:  15px;
 }
 
-.img{
+.img {
   width: 100%;
   height: 100%;
   border-radius: 15px;
   width: 100%;
-  
 }

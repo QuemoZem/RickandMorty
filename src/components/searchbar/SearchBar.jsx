@@ -16,9 +16,6 @@ export default function SearchBar(props) {
   }
   return (
     <div className={styles.contenedor}>
-      <div></div>
-      <div></div>
-      <div></div>
       <div>
         <Link to="/home" className={styles.link}>
           Home
@@ -30,6 +27,18 @@ export default function SearchBar(props) {
         </Link>
       </div>
       <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+
       <div className={styles.wapperSearch}>
         <input
           className={styles.input}
